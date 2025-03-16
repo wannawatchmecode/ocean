@@ -1,7 +1,7 @@
 import { Server, Socket } from "socket.io";
 import { v4 } from "uuid";
 import { createServer } from "http";
-import winston from "winston";
+import { winston } from "./logger";
 
 const PORT = 6477;
 const EXECUTOR_ROOM = "executorRoom";

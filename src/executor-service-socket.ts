@@ -2,7 +2,7 @@ import { Server, Socket } from "socket.io";
 import { createServer } from "http";
 import { v4 } from "uuid";
 
-import winston from "winston";
+import { winston } from "./logger";
 import bun from "bun";
 
 const PORT = 7477;
